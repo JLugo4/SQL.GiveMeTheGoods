@@ -1,3 +1,3 @@
-SELECT CreditHours
-FROM Courses
-WHERE CreditHours BETWEEN 10 AND 20;
+SELECT * FROM Courses
+WHERE CoursesName BETWEEN 'ColdFusion' AND 'Python'
+ORDER BY CoursesName;
